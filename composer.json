@@ -1,0 +1,23 @@
+{
+  "name": "rdlowrey/after",
+  "homepage": "https://github.com/rdlowrey/after",
+  "description": "Simple PHP concurrency primitives",
+  "keywords": ["future", "promise", "async"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Lowrey",
+      "email": "rdlowrey@php.net",
+      "role": "Creator / Lead Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "files": ["src/bootstrap.php"]
+  },
+   "branch-alias": {
+     "dev-master": "0.1.0-dev"
+  }
+}
